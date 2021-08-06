@@ -27,8 +27,8 @@
 #
 
 # Where is tezos installed?
-TZPATH=/home/ubuntu/tezos
-PARAMS="--endpoint http://127.0.0.1:8732"
+TZPATH=/home/root/tezos
+PARAMS="--endpoint https://127.0.0.1:8732"
 
 # Sanity Tests
 command -v $TZPATH/tezos-admin-client >/dev/null 2>&1 || { echo >&2 "Cannot find 'tezos-admin-client' in $TZPATH"; exit 1; }
