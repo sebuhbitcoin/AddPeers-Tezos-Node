@@ -27,7 +27,7 @@
 #
 
 # Where is tezos installed?
-TZPATH=/home/root/tezos
+TZPATH=/ubuntu/tezos
 PARAMS="--endpoint https://127.0.0.1:8732"
 
 # Sanity Tests
